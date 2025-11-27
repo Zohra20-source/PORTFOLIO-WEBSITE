@@ -1,0 +1,244 @@
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Maitree:wght@200;300;400;500;600;700&family=Marmelad&family=Noto+Naskh+Arabic:wght@400.700&family=Source+Code+Pro:ital,wght@0,200.900;1,200.900&family=Vollkorn:ital,wght@0,400.900;1,400.900&display=swap" rel="stylesheet">* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(230, 220, 220);
+    width: 100vw;
+    font-family: 'fira sans', sans-serif;
+    height: 20vh;
+    word-spacing: 190px;
+    transition: transform 0.3s ease-in;
+}
+
+
+.sidebar nav {
+    padding: 45px;
+
+}
+
+.sidebar nav {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 100vw;
+
+}
+
+.container {
+    display: flex;
+
+}
+
+.infoContainer {
+    /* background-color: peachpuff; */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 65px;
+
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'fira sans', sans-serif;
+}
+
+.about {
+    font-size: 40px;
+}
+
+.moreabout {
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: 'fira sans', sans-serif;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(227, 183, 198);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 12px;
+    padding: 9px 15px;
+    margin: 14px 0;
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(213, 164, 213);
+}
+
+.devPic img {
+    height: 58vh;
+}
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 20px;
+    font-family: 'Fira Sans,sans-serif';
+    margin: 0 88px;
+}
+
+.contactform h1 {
+    font-family: 'Source Code Pro, monospace';
+    padding: 12px 0;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    /* font-size: 20px; */
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 18px;
+    color: rgb(160, 54, 54);
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+
+
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogItem {
+    margin: 20px;
+    font-family: 'Fira Sans, sans-serif';
+}
+
+.blogContainer{
+    margin: 0 10px;
+}
+
+h1 {
+    font-family: 'Fira Sans, sans-serif';
+    margin: 23px;
+}
+
+p {
+    font-family: 'Source Code Pro , monospace';
+}
+
+.intro{
+    margin: 0 10px;
+}
+.intro h2 {
+    font-family: 'Fira Sans, sans-serif';
+    margin: 12px;
+    font-size: 30px;
+}
+
+.intro p {
+    font-family: 'Source Code Pro , monospace';
+    margin: 12px;
+    font-size: 24px;
+}
+
+.skillcontainer {
+    padding: 12px;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro, monospace';
+    font-weight: 900;
+}
+
+.skill {
+    width: 265px;
+    height: 6px;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.hundred {
+    width: 265px;
+    background-color: yellow;
+}
+
+.fifty {
+    width: 125px;
+    background-color: green;
+}
+
+.t5 {
+    width: 75px;
+    background-color: plum;
+}
+
+/* .sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+} */
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+/* .cross.jpg{
+    margin-left: 155px;
+
+} */
+@media (max-width: 1276px) {
+    * {
+        /* background-color: rgb(240, 179, 179); */
+    }
+}
+
+.intro, .blogContainer, .contactform{
+    margin: 10px 8px;
+}
